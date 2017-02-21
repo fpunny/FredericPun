@@ -1,0 +1,65 @@
+<!-https://coolors.co/4c6085-39a0ed-36f1cd-13c4a3-32322c->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frederic Pun</title>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body class='default'>
+    <nav id='nav' class='default'>
+        <ul id='ul_nav' class='default' onmouseover='down_menu()' onmouseout='up_menu()'>
+            <li style='flex-grow: 1; padding: 12px 18px; pointer-events: none;'><a href='#'>Frederic Pun</a></li>
+            <li><a href='#'>Home</a></li>
+            <li><a href='about.html'>About me</a></li>
+            <li><a href='resume.html'>Resume</a></li>
+        </ul>
+        <div class='default menu' onclick='toggle_menu()'>
+            <div class='default bar'></div>
+            <div class='default bar'></div>
+            <div class='default bar'></div>
+        </div>
+    </nav>
+    <div class='default section background' style='background-image: url(source/title_page.jpg); height: 100%; width: 100vw;'>
+        <div class='default section center' style='height: 100vh; width: 100%;'>
+            <div>
+                <div class='default icon pic' style='background-image: url(source/icon.jpg); margin-bottom: 31px;'></div>
+            </div>
+            <div>
+                <center>
+                    <h1 class='default' style='font-size: 60px; line-height: 22px; text-shadow: 0px 0px 30px rgba(0,0,0,0.3);'>Frederic Pun</h1>
+                </center>
+                <center>
+                    <h3 style='font-size: 17px; text-shadow: 0px 0px 30px rgba(0,0,0,0.3);'>1<sup>st</sup> Year Computer Science Student</h3>
+                </center>
+            </div>
+        </div>
+        <footer class='default container' style='background-color: #32322C; flex-direction: row; width: 100%;'>
+            <div class='default' style='flex-direction: column; margin: 20px 20px;'>
+                <h2 class='default' style='font-size: 30px;'>Frederic Pun</h2>
+                <hr class='default' width='160px' align='left' style='margin-bottom: 2px;'>
+                <p class='default' style='color:white; font-size: 12px; margin-bottom: 2px;'>Contact Me</p>
+                <div class='default contact' style='flex-direction: row; color: white;'>
+                    <a href='https://www.facebook.com/fredericpun'>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a><a href='https://github.com/fpunny'>
+                        <i class="fa fa-github-alt" aria-hidden="true"></i>
+                    </a><a href='mailto:frederic.pun@gmail.com'>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a><a href='tel:647-962-1311'>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class='default' style='flex-direction: column; margin: 20px 20px; justify-content: center; align-items: flex-end; flex-grow: 1;'>
+                <p class='default' style='color:white;'>"Computer science is no more about computers than astronomy is about telescopes."</p>
+                <p class='default' style='color:white; font-size: 11px;'> - Edsger Dijkstra</p>
+            </div>
+        </footer>
+    </div>
+    
+<script type='text/javascript' src='javascript.js'></script>
+</body>
+</html>
