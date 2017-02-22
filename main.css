@@ -1,3 +1,5 @@
+/*https://coolors.co/d72638-271f30-f19143-fcecc9-4c061d*/
+
 .default {
     display: flex;
     margin: 0;
@@ -16,7 +18,7 @@ h1, h2, h3, h4 {
     font-size: 15px;
 }
 
-.contact i {
+.contact a {
     margin: 0 20px 0 0;
 }
 
@@ -52,11 +54,17 @@ a {
     right: 10px;
 }
 
+.menu:hover .bar {
+    background-color: #D72638;
+    transition: background-color 0.1s linear 0s;
+}
+
 .bar {
     margin: 2px;
     height: 5px;
     width: 28px;
     background-color: white;
+    transition: background-color 0.1s linear 0s;
 }
 
 nav {
@@ -85,7 +93,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #13C4A3;
+    background-color: #D72638;
 }
 
 .center {
@@ -105,4 +113,9 @@ nav ul li:hover {
     background-attachment: fixed;
     background-position: center;
     background-repeat:no-repeat;
+}
+
+footer a:hover {
+    transition: color 0.2s linear 0s;
+    color: #D72638;
 }
