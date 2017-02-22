@@ -5,7 +5,7 @@ function toggle_menu() {
     var ul = document.getElementById('ul_nav');
     if (menu_dropped === false) {
         nav.style.top = '0px';
-        ul.style.backgroundColor = '#32322C';
+        ul.style.backgroundColor = '#271F30';
         menu_dropped = true;
     } else {
         nav.style.top = '-38px';
@@ -18,7 +18,7 @@ function down_menu() {
     if (menu_dropped === false) {
         var nav = document.getElementById('nav');
         var ul = document.getElementById('ul_nav');
-        ul.style.backgroundColor = '#32322C';
+        ul.style.backgroundColor = '#271F30';
         nav.style.top = '0px';
     }
 }
