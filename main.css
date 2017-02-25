@@ -1,9 +1,9 @@
 /*https://coolors.co/d72638-271f30-f19143-fcecc9-4c061d*/
 
-
 html, body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 .default {
