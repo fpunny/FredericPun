@@ -5,6 +5,11 @@
     height: device-height;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .default {
     display: flex;
     margin: 0;
