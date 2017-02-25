@@ -1,8 +1,5 @@
 /*https://coolors.co/d72638-271f30-f19143-fcecc9-4c061d*/
 
-@-ms-viewport{
-    width: device-width;
-}
 
 html, body {
     margin: 0;
@@ -10,7 +7,6 @@ html, body {
 }
 
 .default {
-    display: -webkit-flex;
     display: flex;
     margin: 0;
     padding: 0;
@@ -67,7 +63,6 @@ a {
 .menu:hover .bar {
     background-color: #D72638;
     transition: background-color 0.1s linear 0s;
-    -webkit-transition: background-color 0.1s linear 0s;
 }
 
 .bar {
@@ -76,7 +71,6 @@ a {
     width: 28px;
     background-color: white;
     transition: background-color 0.1s linear 0s;
-    -webkit-transition: background-color 0.1s linear 0s;
 }
 
 nav {
