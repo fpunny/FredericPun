@@ -1,5 +1,9 @@
 /*https://coolors.co/d72638-271f30-f19143-fcecc9-4c061d*/
 
+@-ms-viewport{
+  width: device-width;
+}
+
 .default {
     display: flex;
     margin: 0;
