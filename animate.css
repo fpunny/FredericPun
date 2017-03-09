@@ -1,0 +1,23 @@
+#head_items {
+    position: relative;
+    animation-name: drop;
+    animation-duration: 3s;
+}
+
+@keyframes drop {
+    from {top: -30px; opacity: 0;}
+    to {top: 0; opacity: 1;}
+}
+
+#headers {
+    position: relative;
+    animation-name: drop;
+    animation-duration: 2s;
+}
+
+#items {
+    position: relative;
+    animation-name: drop;
+    animation-duration: 2.5s;
+    animation-fill-mode: backwards;
+}
